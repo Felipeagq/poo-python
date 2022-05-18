@@ -27,5 +27,18 @@ Es un metodo especial por el cual accedemos para inicializar un objeto:
 - Si no se crea el constructor, este se creará vacio en tiempo de ejecución.
 ![](/images/constructorUML.PNG)
 
-## Proceso de creación de un objeto
+### Proceso de creación de un objeto
 ![](/images/construccionDeObjeto.PNG)
+
+## Destructor
+Metodo especial el cual se accede cuando un objeto ya no esta en uso y se destruye en memoria:
+- No retorna datos.
+- No pide valores.
+- Su representación UML tiene el mismo nombre de la clase solo que se antepone de un (~).
+- Solo puede ser llamado indirectamente cuando dejamos de usar un objeto o perdemos la referencia al monticulo.
+
+### Destructor representación UML
+![](/images/representacionUMLDestructor.PNG)
+
+### Proceso destructor en memoria
+![](/images/destructorDeObjeto.PNG)

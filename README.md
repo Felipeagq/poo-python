@@ -53,8 +53,8 @@ rogramming(oops). It is like blueprint for other classes.
 
 Abstract class nos provee de los detalles de una clase, por defecto, python no nos provee Abstract class, pero el modulo ABC nos provee de esta infraestructura.
 
-## @abstractmethod
+### @abstractmethod
 Es un  decorador para un metodo que debe ser abstraido en las clases hijas, si un metodo tiene @abstractmethod, tiene que ser heredado, sino, este nos arrojará error.
 
-## @class.register
+### @class.register
  @Calculation.register virtualiza la sub clase, No tenemos ayuda del Helper de python, pero podemos saltarnos los metodos abstractos.

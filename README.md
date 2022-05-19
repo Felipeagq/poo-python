@@ -36,9 +36,22 @@ Metodo especial el cual se accede cuando un objeto ya no esta en uso y se destru
 - No pide valores.
 - Su representación UML tiene el mismo nombre de la clase solo que se antepone de un (~).
 - Solo puede ser llamado indirectamente cuando dejamos de usar un objeto o perdemos la referencia al monticulo.
+- Si una clase hace referencia a otra, primero se destruye la más alejada y sin relación y por ultimo destruye la más alta. 
 
 ### Destructor representación UML
 ![](/images/representacionUMLDestructor.PNG)
 
 ### Proceso destructor en memoria
 ![](/images/destructorDeObjeto.PNG)
+
+
+
+
+# ABC (Abstract Base Class)
+An Abstract class is one of important concept in object oriented p
+rogramming(oops). It is like blueprint for other classes.
+
+Abstract class nos provee de los detalles de una clase, por defecto, python no nos provee Abstract class, pero el modulo ABC nos provee de esta infraestructura.
+
+## @abstractmethod
+Es un  decorador para un metodo que debe ser abstraido en las clases hijas, si un metodo tiene @abstractmethod, tiene que ser heredado, sino, este nos arrojará error.
